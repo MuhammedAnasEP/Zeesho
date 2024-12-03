@@ -1,4 +1,3 @@
-from nis import cat
 from django.shortcuts import render,redirect
 from admins.models import products,category,Coupon,ProductOffer,CategoryOffer
 from members.models import CustomUser

@@ -1,6 +1,5 @@
 from ctypes.wintypes import DWORD
 from email.mime import image
-from nis import cat
 from urllib import request
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import auth, User

@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'zeesho',
         'USER': 'postgres',
-        'PASSWORD':'p0stgres123',
+        'PASSWORD': 'postgres',
         'HOST':'localhost'
     }
 }
@@ -146,8 +146,8 @@ AUTHENTICATION_BACKENDS=[
 'members.CustomBackend.CustomBackend',
 ]
 
-ACCOUNT_SID=config('ACCOUNT_SID')
-AUTH_TOKEN=config('AUTH_TOKEN')
+# ACCOUNT_SID=config('ACCOUNT_SID')
+# AUTH_TOKEN=config('AUTH_TOKEN')
 
 
 
